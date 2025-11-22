@@ -87,7 +87,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
             applicationIdSuffix ".debug"
             versionNameSuffix "_debug"
         }
